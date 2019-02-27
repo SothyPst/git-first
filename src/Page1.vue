@@ -2,7 +2,7 @@
   <div>
     <h1>Hello World {{a+b}}</h1>
     <h1>{{ msg }}</h1>
-    <button @click="sum" >Get Result: {{c}}</button> 
+    <button @click="sum" >Get Result  As Total : {{c}}</button> 
     <h1 v-if="name">{{name}}</h1>
     <input v-model="name"/>
   </div>
